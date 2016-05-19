@@ -1,0 +1,27 @@
+{
+  "name": "blobStream",
+  "version": "0.0.1",
+  "description": "Consume files that generally repeat a pattern and emit defined JSON objects parsed from the file.",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/Natrina/blobStream"
+  },
+  "author": "Natrina",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Natrina/blobStream/issues"
+  },
+  "homepage": "https://github.com/Natrina/blobStream",
+  "devDependencies": {
+    "faucet": "0.0.1",
+    "tap-bail": "0.0.0",
+    "tape": "^4.5.1"
+  },
+  "dependencies": {
+    "tail": "^1.1.0"
+  }
+}
